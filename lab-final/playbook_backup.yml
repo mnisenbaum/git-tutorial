@@ -1,0 +1,18 @@
+---
+# Playbook - Backup de configurações - Projeto Filial
+
+- name: Backup das configuracoes de rede da filial
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Coleta configuracao em execucao
+      ios_command:
+        commands:
+          - show running-config
+      register: config_atual
+
+    - name: Salva backup localmente
+      copy:
+        content: "{{ config_atual.stdout[0] }}"
+        dest: "./backups/{{ inventory_hostname }}.cfg"

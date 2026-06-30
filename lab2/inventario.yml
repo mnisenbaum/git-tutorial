@@ -1,0 +1,28 @@
+---
+# Inventário de dispositivos de rede - Laboratório CCNA Automation
+# Este arquivo simula um inventário usado em ferramentas de automação (ex: Ansible)
+
+all:
+  children:
+    switches:
+      hosts:
+        SW1:
+          ansible_host: 192.168.1.11
+          device_type: cisco_ios
+        SW2:
+          ansible_host: 192.168.1.12
+          device_type: cisco_ios
+
+    routers:
+      hosts:
+        R1:
+          ansible_host: 192.168.1.1
+          device_type: cisco_ios
+        R2:
+          ansible_host: 192.168.1.2
+          device_type: cisco_ios
+
+  vars:
+    ansible_user: admin
+    ansible_password: changeme
+    ansible_connection: network_cli

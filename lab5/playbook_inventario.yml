@@ -1,0 +1,18 @@
+---
+# Playbook de exemplo - Coleta de inventário de dispositivos
+# Laboratório CCNA Automation
+
+- name: Coleta inventario dos dispositivos de rede
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Coleta versao do IOS
+      ios_facts:
+        gather_subset:
+          - hardware
+          - interfaces
+
+    - name: Exibe versao coletada
+      debug:
+        var: ansible_net_version

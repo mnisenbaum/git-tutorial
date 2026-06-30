@@ -1,0 +1,18 @@
+---
+# Playbook - Auditoria de configurações - Projeto Filial
+
+- name: Auditoria basica das configuracoes
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Verifica versao do IOS
+      ios_facts:
+        gather_subset:
+          - hardware
+
+    - name: Exibe versao coletada
+      debug:
+        var: ansible_net_version
+
+    # TODO (Missao 5 do lab-final): adicionar task de checagem de VLANs aqui
