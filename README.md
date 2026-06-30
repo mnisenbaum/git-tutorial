@@ -6,11 +6,11 @@ Repositório de estudo para quem está se preparando para o **CCNA Automation** 
 
 ## 📖 O que tem aqui
 
-- **[tutorial-git-github.md](./tutorial-git-github.md)** — Tutorial completo do zero: o que é Git, configuração, comandos básicos, GitHub e branches. Comece por aqui se você nunca usou Git.
+- **[tutorial-git-github.md](./tutorial-git-github.md)** — Tutorial completo do zero: o que é Git, configuração, comandos básicos, GitHub e branches. Comece por aqui se você nunca usou Git. **Inicie aqui!**
 
-- **Labs práticos** — pastas `lab1` a `lab6`, uma para cada assunto do tutorial, com arquivos de exemplo prontos (incluindo configs de rede e YAML, no espírito do CCNA Automation).
+- **Labs práticos** — pastas `lab1` a `lab6`, uma para cada assunto do tutorial, com arquivos de exemplo prontos (incluindo configs de rede e YAML, no espírito do CCNA Automation). **Deep Dive!**
 
-- **`lab-final`** — desafio que junta tudo: você vai inicializar, versionar, subir pro GitHub e trabalhar com branches em um cenário único, simulando um projeto real de automação.
+- **`lab-final`** — desafio que junta tudo: você vai inicializar, versionar, subir pro GitHub e trabalhar com branches em um cenário único, simulando um projeto real de automação. **Desafio!!**
 
 ---
 
