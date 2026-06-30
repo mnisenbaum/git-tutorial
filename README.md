@@ -33,18 +33,24 @@ Repositório de estudo para quem está se preparando para o **CCNA Automation** 
 
 ## ▶️ Como começar
 
-### 1. Clone este repositório
+## ✅ Pré-requisitos
+
+- Git instalado ([git-scm.com](https://git-scm.com))
+- Conta no [GitHub](https://github.com)
+- Terminal (bash, PowerShell, etc.)
+
+### 1. Leia o tutorial
+
+Abra `tutorial-git-github.md` e siga os conceitos básicos.
+
+### 2. Clone este repositório
 
 ```bash
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPO.git
-cd NOME-DO-REPO
+git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO.git](https://github.com/mnisenbaum/git-tutorial.git)
+cd git-tutorial
 ```
 
 Pronto — você já tem o tutorial e todos os labs na sua máquina.
-
-### 2. Leia o tutorial
-
-Abra `tutorial-git-github.md` e siga os conceitos básicos.
 
 ### 3. Faça os labs em ordem
 
@@ -68,11 +74,5 @@ No exame e na prática de automação de redes, você vai:
 Dominar Git não é opcional — é parte da base do **CCNA Automation**.
 
 ---
-
-## ✅ Pré-requisitos
-
-- Git instalado ([git-scm.com](https://git-scm.com))
-- Conta no [GitHub](https://github.com)
-- Terminal (bash, PowerShell, etc.)
 
 Bons estudos! 💻
