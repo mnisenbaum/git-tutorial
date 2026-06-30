@@ -46,7 +46,7 @@ Abra `tutorial-git-github.md` e siga os conceitos básicos.
 ### 2. Clone este repositório
 
 ```bash
-git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO.git](https://github.com/mnisenbaum/git-tutorial.git)
+git clone https://github.com/mnisenbaum/git-tutorial.git
 cd git-tutorial
 ```
 
